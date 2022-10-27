@@ -245,7 +245,10 @@
                     <form action="https://formsubmit.co/mhiztavictor@gmail.com" method="POST">
                         <p class="h7">Send Messages</p>
                         <div class="inputBox">
-                            <input type="text" name="subject" required="required">
+                            <input type="hidden" name="_captcha" value="false">
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="name" required="required">
                             <span>Full Name</span>
                         </div>
 
@@ -259,7 +262,7 @@
                         </div>
 
                         <div class="inputBox">
-                            <textarea required="required" name="message"></textarea>
+                            <textarea required="required" name="subject"></textarea>
                             <span>Type your Message...</span>
                         </div>
 
